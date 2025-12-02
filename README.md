@@ -23,13 +23,13 @@ How to Run
 
 Technologies Used
 
-  Python 3
-  os
-  hashlib
-  shutil
-  json
-  argparse
-  time
+  Python 3,
+  os,
+  hashlib,
+  shutil,
+  json,
+  argparse,
+  time,
   datetime
 
  Author
