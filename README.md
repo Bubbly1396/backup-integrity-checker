@@ -1,6 +1,5 @@
 Automated File Backup & Integrity Checker (Python)
-
-    A Python tool that automatically backs up files, detects changes using SHA-256 hashing, and verifies file integrity to prevent corruption or data loss.
+A Python tool that automatically backs up files, detects changes using SHA-256 hashing, and verifies file integrity to prevent corruption or data loss.
 
 Key Features
 
@@ -19,6 +18,7 @@ How to Run
 
 
   Verify integrity  
+  
      > python backup_tool.py --source "path" --backup "path" --verify
 
 Technologies Used
