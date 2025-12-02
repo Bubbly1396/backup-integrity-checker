@@ -1,7 +1,9 @@
 Automated File Backup & Integrity Checker (Python)
+
     A Python tool that automatically backs up files, detects changes using SHA-256 hashing, and verifies file integrity to prevent corruption or data loss.
 
 Key Features
+
   Incremental backup system (only new or modified files are copied)
   SHA-256 hashing for file integrity validation
   Detects corrupted or missing files
@@ -10,7 +12,9 @@ Key Features
   No external libraries required
 
 How to Run
+
   Backup command
+  
      > python backup_tool.py --source "path_to_source" --backup "path_to_backup"
 
 
@@ -18,6 +22,7 @@ How to Run
      > python backup_tool.py --source "path" --backup "path" --verify
 
 Technologies Used
+
   Python 3
   os
   hashlib
